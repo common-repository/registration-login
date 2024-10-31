@@ -1,0 +1,114 @@
+#login {
+	font-family: verdana,tahoma,arial,tahoma !important;
+	width:22em;
+}
+
+.diy_bar { 
+	top: 0;
+	right: 10px; 
+	position: absolute;
+	z-index: 100;
+}
+
+
+#login_inner { 
+	padding: 0.8em; 
+	color: #000; 
+	background: #FFF; 
+	border: 1px solid #6E5256;
+	-moz-border-radius-bottomleft:10px;
+
+-moz-border-radius-topleft:0;
+
+}
+
+.diy_bar #login_inner { margin: 0 auto; }
+
+.thesis_bar #login_inner { width: 22em; float: right; }
+
+#login_form_holder { 
+padding-right:20px;
+text-align:right;
+}
+#login_form_holder p { margin-bottom: 0.6em; font-size: 1.2em; }
+#login_form_holder p a { color: #185A0D; }
+#login_form_holder label { 
+	letter-spacing: 1px; 
+}
+
+#login_form_holder .form_input:focus { color: #2a5617; background: #f7f0b1; }
+#login_form_holder .header_submit { 
+	 
+	letter-spacing: 1px; 
+	padding: 0.00em 0.364em; 
+	color: #fdea91; 
+	background: #222; 
+	border: 0.102em solid #444; 
+	border-right-color: #000; 
+	border-bottom-color: #000; 
+	cursor: pointer; 
+	width: auto; 
+	overflow: visible; 
+	font-family: verdana,tahoma,arial,tahoma !important;
+	font-size: 1em;
+}
+
+#login_bar_control, #login_bar_control2 { 
+	 
+	letter-spacing: 1px; 
+	padding: 0.3em 0.6em; 
+	color: #000 !important; 
+	background: #FFF; 
+	float: right; 
+	cursor: pointer; 
+	margin-top: -4px;
+	border-left: 1px solid #6E5256;
+	border-bottom: 1px solid #6E5256;
+	border-right: 1px solid #6E5256;
+	-moz-border-radius: 0 0 10px 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	-khtml-border-bottom-left-radius: 10px;
+	-khtml-border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;	
+	font-size:0.9em;
+
+}
+#login_bar_control2 {
+	float: right !important; 
+	margin-right: 2px !important;
+}
+#login_bar_control2 a {
+	color: #000 !important;
+}
+#login_form_holder a:hover {
+	color: #5B9DC0 !important;
+}
+a.user_registration {
+	text-decoration:none;
+	color:#e31d03 !important;
+
+}
+/* ----->>> for logout <<<----- */
+#logout { 
+	width: auto; 
+	top: 0;
+	right: 10px; 
+	position: absolute;
+	}
+.logout_bar_control { 
+	cursor: auto !important;
+	color:#000 !important;
+	background-color: #FFF !important;	
+}
+.logout_bar_control a { 
+	cursor: pointer !important;
+	color: #000;
+	text-decoration:none;
+}
+.logout_bar_control a:hover { 
+	cursor: pointer !important;
+	color: #5B9DC0;
+}
+/* ----->>> for logout <<<----- */
